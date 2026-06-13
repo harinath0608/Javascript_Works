@@ -40,6 +40,38 @@ console.log(spaces.length);
 console.log(spaces.trim().length);
 
 
+// Regex 
+
+
+
+// let email = prompt()
+
+// if (email.includes("@")) {
+//     console.log("Valid Email");
+// }
+
+// else {
+//     console.log("Invalid Email");
+    
+// }
+
+
+let onlyNumbers = /^[0-8]+$/
+
+let CorrectNumber = onlyNumbers.test("12345")
+
+console.log(CorrectNumber);
+
+
+let Characters = /^[A-Z]+$/
+
+let Username = Characters.test("HARINATH")
+
+console.log(Username);
+
+
+
+
 
 
 
